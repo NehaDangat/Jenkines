@@ -1,5 +1,4 @@
-FROM openjdk:11-jre-slim
-ARG JAR_FILE=build/libs/*.jar
-COPY ${JAR_FILE} app.jar
-EXPOSE 8080
-ENTRYPOINT ["java","-jar","/app.jar"]
+FROM openjdk:8
+EXPOSE 1999
+ADD \build\libs\Employee_Management_System.jar
+ENTRYPOINT [ "java","-jar","/Employee_Management_System.jar"]

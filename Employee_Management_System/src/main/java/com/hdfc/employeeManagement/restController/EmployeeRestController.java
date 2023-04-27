@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.hdfc.employeeManagement.DTO.EmployeeDTO;
+
 import com.hdfc.employeeManagement.VO.EmployeeVO;
-import com.hdfc.employeeManagement.entity.Employee;
+
 import com.hdfc.employeeManagement.exception.InvalidEmployeeIdException;
 
 import com.hdfc.employeeManagement.service.IEmployeeService;
@@ -26,5 +26,4 @@ public class EmployeeRestController {
 		return employeeService.getEmployeeById(employeeId);
 	}
 	
-
 }
