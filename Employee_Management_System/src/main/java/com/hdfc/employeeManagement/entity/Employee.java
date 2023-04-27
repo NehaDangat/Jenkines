@@ -1,6 +1,10 @@
 package com.hdfc.employeeManagement.entity;
 
-
+/**
+ * @author Neha Dangat
+ * 
+ * @createdDate 22-Apr-2023
+ */
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
